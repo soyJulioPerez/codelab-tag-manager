@@ -19,7 +19,7 @@ export class AppComponent {
     private titleService: Title
 
   ) {
-    const navEndEvents$ = this.router.events
+    /* const navEndEvents$ = this.router.events
       .pipe(
         filter(event => event instanceof NavigationEnd)
       );
@@ -32,6 +32,6 @@ export class AppComponent {
         'page_path': event.urlAfterRedirects
       });
 
-    });
+    }); */
   }
 }
